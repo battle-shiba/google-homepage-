@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<html style="height: 100%;">
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body style="height: 100%;">
+
+    <style>
+
+        #page {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 100vw;
+        }
+        #nav-bar {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-end;
+          width: 100%;
+          width: 100vw;
+          height: 60px;
+          padding: 6px;
+
+          font-size: 14px;
+          font-family: arial,sans-serif;
+      
+        }
+        #box-1 {
+          order: 1;  
+          background-color;
+          margin-right: auto;
+          list-style: none;
+
+          
+          
+        }
+
+        #box-1 li {
+            display: inline-block;
+            padding: 0px 10px;
+            
+        }
+
+        #box-1 li a {
+            color: black;
+            text-decoration: none;
+        }
+
+        #box-1 li a:hover {
+            text-decoration: underline;
+
+        }
+      
+        #box-2 {
+          order: 2;
+          background-color: ;
+          
+          list-style: none;
+
+          
+        }
+
+        #box-2 li {
+            display: inline-block;
+            padding: 0px 10px;
+            
+        }
+
+        #box-2 li a {
+            color: black;
+            text-decoration: none;
+        }
+
+        #box-2 li a:hover {
+            text-decoration: underline;
+
+        }
+      
+
+        
+
+        #logo {
+            display: flex;
+            flex-direction: column;
+            
+            align-items: center;
+            margin-top: 15%;
+
+
+        }
+
+        #search-and-buttons {
+            
+            position: relative;
+            top: 5%;
+            background-color: white;
+            padding: 20px;
+            max-height: 160px;
+            width: 100%;
+            
+        }
+
+        #search-bar-wrapper { 
+
+                      width: auto;
+                      max-width: 548px;
+                      background: white;
+                      display: flex;
+                      border: 1px solid grey;
+                      box-shadow: none;
+                      border-radius: 24px;
+                      margin: 0 auto;
+                      
+                      
+                      
+                      height: 44px;
+                      
+
+        }
+        
+        #search-bar {
+            background-color: transparent;
+            border: none;
+            margin: 0;
+            margin-top: 0px;
+            padding: 0;
+            color: rgba(0,0,0,.87);
+            word-wrap: break-word;
+            outline: none;
+            display: flex;
+            flex: 100%;
+            
+            margin-top: -37px;
+            height: 34px;
+            font-size: 16px;
+
+
+        }
+
+        .search-button {
+            background-color: #f8f9fa;
+            border: 1px solid #f8f9fa;
+            border-radius: 4px;
+            color: #3c4043;
+            font-family: arial,sans-serif;
+            font-size: 14px;
+            margin: 11px 4px;
+            padding: 0 16px;
+            line-height: 27px;
+            height: 36px;
+            min-width: 54px;
+            text-align: center;
+            cursor: pointer;
+            user-select: none;
+        }
+      </style>
+    <div id="page"> 
+
+      <div id="nav-bar">
+
+        <div id="box-1">
+            
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Store</a></li>
+            </ul>
+
+        </div>
+        
+        <div id="box-2">
+
+            <ul>
+                <li> <a href="#">Gmail</a> </li>
+                <li> <a href="#">Images</a> </li>
+                <li> <button>Sign in</button> </li>
+            </ul>
+
+        </div>
+
+      </div>
+
+      <div id="logo"> 
+          <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+               alt="Google logo">
+
+      </div>
+
+      <div id="search-and-buttons"> 
+
+        <div id="search-bar-wrapper">
+            <input id="search-bar" type="text">
+        </div>
+
+        <div style="display: flex; justify-content: center;">
+            <input class="search-button" type="submit" value="Google Search">
+            <input class="search-button" type="submit" value="I'm feeling lucky">
+        </div>  
+
+      </div>
+
+    </div> 
+
+
+
+
+
+
+</body>
+
+
+</html>
